@@ -200,4 +200,102 @@ section {
             }
         }
     }
+
+    .logos {
+        width: 1110px;
+        height: 34.882px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 49px;
+    }
+
+    .features {
+        width: 1140px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 132px;
+
+        .features-info {
+            width: 542px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+
+            h1 {
+                color: #18216D;
+                font-family: 'Inter';
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 64px;
+                letter-spacing: -1px;
+                text-transform: capitalize;
+                width: 463px;
+            }
+
+            p {
+                color: #18216D;
+                text-align: center;
+                font-family: 'Inter';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                width: 542px;
+            }
+        }
+
+        .features-item {
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            gap: 80px;
+            margin-top: 48px;
+
+            .features-item-info {
+                width: 320px;
+                height: 267px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                h1 {
+                    color: #18216D;
+                    font-family: 'Inter';
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                p {
+                    width: 320px;
+                    color: #18216D;
+                    font-family: 'Inter';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #18216D;
+                    font-family: 'Inter';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
 }
