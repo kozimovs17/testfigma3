@@ -263,4 +263,184 @@ section .features .features-item .features-item-info a {
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
+}
+
+.calendar {
+  width: 1600px;
+  height: 593px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 130px;
+}
+.calendar .back {
+  opacity: 0.05;
+  background: #005FEC;
+  width: 1600px;
+  height: 593px;
+  position: absolute;
+  z-index: -1;
+}
+.calendar .calendar-item {
+  width: 1140px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.calendar .calendar-item .calendar-info {
+  width: 487px;
+  height: 307px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.calendar .calendar-item .calendar-info h1 {
+  color: #18216D;
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}
+.calendar .calendar-item .calendar-info p {
+  width: 487px;
+  color: #18216D;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.calendar .calendar-item .calendar-info button {
+  width: 160px;
+  height: 52px;
+  border-radius: 6px;
+  background: #005FEC;
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+
+.powering {
+  width: 1140px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 196px;
+  margin-top: 130px;
+}
+.powering .powering-item {
+  width: 400px;
+  height: 450px;
+  position: relative;
+}
+.powering .powering-item .powering-item-info {
+  width: 184px;
+  height: 150px;
+  border-radius: 6px;
+  background: #FFF;
+  box-shadow: -4px 8px 20px 0px rgba(24, 33, 109, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: absolute;
+  bottom: -58px;
+  right: -101px;
+}
+.powering .powering-item .powering-item-info .powering-weekly {
+  width: 134px;
+  height: 70px;
+  flex-shrink: 0;
+}
+.powering .powering-item .powering-item-info button {
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  background: #DAE9FF;
+  color: #005FEC;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  border: none;
+}
+.powering .powering-item .powering-tocka {
+  position: absolute;
+  left: -71px;
+  bottom: -34px;
+}
+.powering .powering-info {
+  width: 496px;
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.powering .powering-info h1 {
+  width: 496px;
+  color: #18216D;
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}
+.powering .powering-info p {
+  width: 446px;
+  color: #18216D;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.powering .powering-info .powering-info-item {
+  width: 309.983px;
+  height: 107.97px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.powering .powering-info .powering-info-item .powering-frame {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.powering .powering-info .powering-info-item .powering-frame input {
+  width: 19.973px;
+  height: 19.97px;
+}
+.powering .powering-info .powering-info-item .powering-frame p {
+  color: #18216D;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.powering .powering-info button {
+  width: 164px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #005FEC;
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  border: none;
 }/*# sourceMappingURL=dotcom.css.map */

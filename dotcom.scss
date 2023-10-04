@@ -299,3 +299,206 @@ section {
         }
     }
 }
+
+.calendar {
+    width: 1600px;
+    height: 593px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 130px;
+
+    .back {
+        opacity: 0.05;
+        background: #005FEC;
+        width: 1600px;
+        height: 593px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .calendar-item {
+        width: 1140px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        gap: 90px;
+
+        .calendar-info {
+            width: 487px;
+            height: 307px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            h1 {
+                color: #18216D;
+                font-family: 'Inter';
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 48px;
+            }
+
+            p {
+                width: 487px;
+                color: #18216D;
+                font-family: 'Inter';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                // opacity: 0.8;
+            }
+
+            button {
+                width: 160px;
+                height: 52px;
+                border-radius: 6px;
+                background: #005FEC;
+                color: #FFF;
+                font-family: 'Inter';
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                border: none;
+            }
+        }
+    }
+}
+
+.powering {
+    width: 1140px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 196px;
+    margin-top: 130px;
+
+    .powering-item {
+        width: 400px;
+        height: 450px;
+        position: relative;
+        // border: 1px solid red;
+
+        .powering-item-info {
+            width: 184px;
+            height: 150px;
+            border-radius: 6px;
+            background: #FFF;
+            box-shadow: -4px 8px 20px 0px rgba(24, 33, 109, 0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            position: absolute;
+            bottom: -58px;
+            right: -101px;
+
+            .powering-weekly {
+                width: 134px;
+                height: 70px;
+                flex-shrink: 0;
+            }
+
+            button {
+                width: 100px;
+                height: 30px;
+                border-radius: 4px;
+                background: #DAE9FF;
+                color: #005FEC;
+                font-family: 'Inter';
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+                border: none;
+            }
+        }
+
+
+        .powering-tocka {
+            position: absolute;
+            left: -71px;
+            bottom: -34px;
+        }
+    }
+
+    .powering-info {
+        width: 496px;
+        height: 444px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        // border: 1px solid red;
+
+        h1 {
+            width: 496px;
+            color: #18216D;
+            font-family: 'Inter';
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 48px;
+        }
+
+        p {
+            width: 446px;
+            color: #18216D;
+            font-family: 'Inter';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        .powering-info-item {
+            width: 309.983px;
+            height: 107.97px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .powering-frame {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+
+                input {
+                    width: 19.973px;
+                    height: 19.97px;
+                }
+
+                p {
+                    color: #18216D;
+                    font-family: 'Inter';
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 18px;
+                }
+            }
+        }
+
+        button {
+            width: 164px;
+            height: 54px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            background:#005FEC;
+            color: #FFF;
+            font-family: 'Inter';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            border: none;
+        }
+    }
+}
