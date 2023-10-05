@@ -273,4 +273,84 @@
     font-size: 12px;
     margin-top: 50px;
   }
+  .pricing {
+    width: 335px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  }
+  .pricing .pricing-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .pricing .pricing-text {
+    width: 335px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .pricing .pricing-item1 {
+    width: 272px;
+    height: 40px;
+    margin-top: 30px;
+  }
+  .pricing .pricing-item1 .pricing-back {
+    width: 272px;
+    height: 40px;
+  }
+  .pricing .pricing-item1 .pricing-btn1 {
+    width: 125px;
+    height: 28px;
+    font-size: 14px;
+  }
+  .pricing .pricing-item1 .pricing-btn2 {
+    width: 125px;
+    height: 28px;
+    font-size: 14px;
+  }
+  .pricing .pricing-item2 {
+    width: 335px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+  }
+  .pricing .pricing-item2 .pricing-item2-info {
+    width: 335px;
+  }
+  .pricing .pricing-item2 .pricing-item2-info .pricing-item2-line {
+    width: 335px;
+  }
+  .pricing .pricing-item2 .pricing-item2-info .pricing-item2-back {
+    width: 335px;
+  }
+  .pricing .pricing-item2 .pricing-item2-info .pricing-item2-frame1 {
+    width: 335px;
+    height: 160px;
+  }
+  .pricing .pricing-item2 .pricing-item2-info .pricing-item2-frame1 h3 {
+    font-size: 20px;
+  }
+  .pricing .pricing-item2 .pricing-item2-info .pricing-item2-frame1 h1 {
+    font-size: 30px;
+  }
+  .pricing .pricing-item2 .pricing-item2-info .pricing-item2-frame2 {
+    width: 335px;
+    height: 456px;
+  }
+  .pricing .pricing-item2 .pricing-item2-info .pricing-item2-frame2 .pricing-item2-frame2-info .inp p {
+    font-size: 14px;
+  }
+  .pricing .pricing-item2 .pricing-item2-info .pricing-item2-frame2 .pricing-item2-frame2-info .inp img {
+    width: 18px;
+    height: 18px;
+  }
+  .pricing .pricing-item2 .pricing-item2-info .pricing-item2-frame2 button {
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=media.css.map */

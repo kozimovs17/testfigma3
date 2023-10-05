@@ -358,4 +358,115 @@
 // POWERING-FINISH
 
 
+// PRICING
+
+.pricing {
+    width: 335px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+
+    .pricing-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .pricing-text {
+        width: 335px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .pricing-item1 {
+        width: 272px;
+        height: 40px;
+        margin-top: 30px;
+
+        .pricing-back {
+            width: 272px;
+            height: 40px;
+        }
+
+        .pricing-btn1 {
+            width: 125px;
+            height: 28px;
+            font-size: 14px;
+        }
+
+        .pricing-btn2 {
+            width: 125px;
+            height: 28px;
+            font-size: 14px;
+        }
+    }
+
+    .pricing-item2 {
+        width: 335px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin-top: 80px;
+
+        .pricing-item2-info {
+            width: 335px;
+
+            .pricing-item2-line {
+                width: 335px;
+            }
+
+            .pricing-item2-back {
+                width: 335px;
+            }
+
+            .pricing-item2-frame1 {
+                width: 335px;
+                height: 160px;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                h1 {
+                    font-size: 30px;
+                }
+
+            }
+
+            .pricing-item2-frame2 {
+                width: 335px;
+                height: 456px;
+
+                .pricing-item2-frame2-info {
+
+
+                    .inp {
+
+                        p {
+                            font-size: 14px;
+                        }
+
+                        img {
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+                }
+
+                button {
+                    width: 120px;
+                    height: 40px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+// PRICING-FINISH
+
+
 }
