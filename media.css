@@ -156,7 +156,7 @@
   }
   .calendar .back {
     width: 100%;
-    height: 100%;
+    height: 600px;
   }
   .calendar .calendar-item {
     width: 335px;
@@ -365,15 +365,67 @@
   }
   .testimonial .testimonial-back {
     width: 100%;
-    height: 100%;
+    height: 800px;
   }
   .testimonial .testimonial-item {
     width: 335px;
     flex-direction: column-reverse;
   }
-  .testimonial .testimonial-item img {
+  .testimonial .testimonial-item .testimonial-animation {
     width: 335px;
-    margin-top: 50px;
+    height: 335px;
+  }
+  .testimonial .testimonial-item .testimonial-animation .animation-rs1 {
+    width: 95px;
+    position: absolute;
+    left: 114px;
+    bottom: 280px;
+  }
+  .testimonial .testimonial-item .testimonial-animation .animation-rs2 {
+    width: 95px;
+    position: absolute;
+    left: 114px;
+    top: 285px;
+  }
+  .testimonial .testimonial-item .testimonial-animation .animation-rs3 {
+    position: absolute;
+    right: 280px;
+    bottom: 110px;
+    width: 95px;
+  }
+  .testimonial .testimonial-item .testimonial-animation .animation-rs4 {
+    position: absolute;
+    left: 280px;
+    bottom: 110px;
+    width: 95px;
+  }
+  .testimonial .testimonial-item .testimonial-animation .testimonial-animation2 {
+    width: 175.821px;
+    height: 175.821px;
+  }
+  .testimonial .testimonial-item .testimonial-animation .testimonial-animation2 .animation-rs5 {
+    width: 85px;
+    position: absolute;
+    right: 105px;
+    bottom: 95px;
+  }
+  .testimonial .testimonial-item .testimonial-animation .testimonial-animation2 .animation-rs6 {
+    width: 85px;
+    position: absolute;
+    right: 110px;
+    top: 100px;
+  }
+  .testimonial .testimonial-item .testimonial-animation .testimonial-animation2 .animation-rs7 {
+    width: 85px;
+    position: absolute;
+    left: 110px;
+    top: 100px;
+  }
+  .testimonial .testimonial-item .testimonial-animation .testimonial-animation2 .animation-rs8 {
+    width: 85px;
+    position: absolute;
+    left: 105px;
+    bottom: 95px;
   }
   .testimonial .testimonial-item .testimonial-info {
     width: 335px;

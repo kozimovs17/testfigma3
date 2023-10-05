@@ -781,6 +781,88 @@ section .features .features-item .features-item-info a {
   gap: 106px;
   align-items: center;
 }
+.testimonial .testimonial-item .testimonial-animation {
+  width: 389px;
+  height: 389px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation-name: kss;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+@keyframes kss {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.testimonial .testimonial-item .testimonial-animation .animation-rs1 {
+  position: absolute;
+  left: 138px;
+  bottom: 320px;
+}
+.testimonial .testimonial-item .testimonial-animation .animation-rs2 {
+  position: absolute;
+  left: 138px;
+  top: 320px;
+}
+.testimonial .testimonial-item .testimonial-animation .animation-rs3 {
+  position: absolute;
+  right: 330px;
+}
+.testimonial .testimonial-item .testimonial-animation .animation-rs4 {
+  position: absolute;
+  left: 330px;
+}
+.testimonial .testimonial-item .testimonial-animation .testimonial-animation2 {
+  width: 229.821px;
+  height: 229.821px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  border-radius: 50%;
+  position: relative;
+  animation-name: kss2;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+@keyframes kss2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.testimonial .testimonial-item .testimonial-animation .testimonial-animation2 .animation-rs5 {
+  position: absolute;
+  right: 150px;
+  bottom: 140px;
+}
+.testimonial .testimonial-item .testimonial-animation .testimonial-animation2 .animation-rs6 {
+  position: absolute;
+  right: 150px;
+  top: 140px;
+}
+.testimonial .testimonial-item .testimonial-animation .testimonial-animation2 .animation-rs7 {
+  position: absolute;
+  left: 150px;
+  top: 140px;
+}
+.testimonial .testimonial-item .testimonial-animation .testimonial-animation2 .animation-rs8 {
+  position: absolute;
+  left: 150px;
+  bottom: 140px;
+}
 .testimonial .testimonial-item .testimonial-info {
   width: 616px;
   height: 370px;

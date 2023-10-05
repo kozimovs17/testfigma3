@@ -156,7 +156,7 @@ body {
         position: absolute;
         right: -100px;
         top: -5px;
-        
+
     }
 
     .nav>.nav-btn>label {
@@ -175,7 +175,7 @@ body {
         display: block;
         width: 25px;
         height: 10px;
-        border-top: 2px solid  #18216D;
+        border-top: 2px solid #18216D;
     }
 
     .nav>.nav-links {
@@ -205,6 +205,7 @@ body {
         height: calc(100vh - 50px);
         overflow-y: auto;
     }
+
     .nav-btn {
         width: 136px;
         height: auto;
@@ -213,7 +214,7 @@ body {
         align-items: center;
         gap: 16px;
         margin-left: 55px;
-    
+
         .btn1 {
             width: 136px;
             height: 52px;
@@ -987,6 +988,103 @@ section {
         display: flex;
         gap: 106px;
         align-items: center;
+
+        .testimonial-animation {
+            width: 389px;
+            height: 389px;
+            border: 1px solid #000;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            animation-name: kss;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+
+            @keyframes kss {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+
+            .animation-rs1 {
+                position: absolute;
+                left: 138px;
+                bottom: 320px;
+            }
+
+            .animation-rs2 {
+                position: absolute;
+                left: 138px;
+                top: 320px;
+            }
+
+            .animation-rs3 {
+                position: absolute;
+                right: 330px;
+            }
+
+            .animation-rs4 {
+                position: absolute;
+                left: 330px;
+            }
+
+            .testimonial-animation2 {
+                width: 229.821px;
+                height: 229.821px;
+                flex-shrink: 0;
+                border: 1px solid #000;
+                border-radius: 50%;
+                position: relative;
+                animation-name: kss2;
+                animation-duration: 5s;
+                animation-timing-function: linear;
+                animation-direction: normal;
+                animation-iteration-count: infinite;
+
+                @keyframes kss2 {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+
+                    100% {
+                        transform: rotate(-360deg);
+                    }
+                }
+
+
+                .animation-rs5 {
+                    position: absolute;
+                    right: 150px;
+                    bottom: 140px;
+                }
+
+                .animation-rs6 {
+                    position: absolute;
+                    right: 150px;
+                    top: 140px;
+                }
+
+                .animation-rs7 {
+                    position: absolute;
+                    left: 150px;
+                    top: 140px;
+                }
+
+                .animation-rs8 {
+                    position: absolute;
+                    left: 150px;
+                    bottom: 140px;
+                }
+            }
+        }
 
         .testimonial-info {
             width: 616px;
