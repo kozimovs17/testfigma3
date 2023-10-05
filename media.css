@@ -145,4 +145,132 @@
     line-height: 24px;
     opacity: 0.5;
   }
+  .calendar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 120px;
+  }
+  .calendar .back {
+    width: 100%;
+    height: 100%;
+  }
+  .calendar .calendar-item {
+    width: 335px;
+    height: auto;
+    flex-direction: column-reverse;
+    gap: 90px;
+  }
+  .calendar .calendar-item img {
+    width: 335px;
+  }
+  .calendar .calendar-item .calendar-info {
+    width: 335px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .calendar .calendar-item .calendar-info h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .calendar .calendar-item .calendar-info p {
+    width: 330px;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.8;
+  }
+  .calendar .calendar-item .calendar-info button {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .powering {
+    width: 335px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-top: 130px;
+  }
+  .powering .powering-item {
+    width: 335px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .powering .powering-item .powering-img {
+    width: 300px;
+  }
+  .powering .powering-item .powering-item-info {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+  }
+  .powering .powering-item .powering-item-info .powering-weekly {
+    width: 80px;
+    height: 40px;
+  }
+  .powering .powering-item .powering-item-info button {
+    width: 75px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .powering .powering-item .powering-tocka {
+    width: 80px;
+    position: absolute;
+    left: -20px;
+    bottom: -14px;
+  }
+  .powering .powering-info {
+    width: 335px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .powering .powering-info h1 {
+    width: 335px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .powering .powering-info .powering-text {
+    width: 330px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    opacity: 0.5;
+  }
+  .powering .powering-info .powering-info-item .powering-frame {
+    gap: 14px;
+  }
+  .powering .powering-info .powering-info-item .powering-frame input {
+    width: 15px;
+    height: 15px;
+  }
+  .powering .powering-info .powering-info-item .powering-frame p {
+    font-size: 14px;
+  }
+  .powering .powering-info button {
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=media.css.map */

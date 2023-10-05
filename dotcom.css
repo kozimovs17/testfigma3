@@ -521,7 +521,7 @@ section .features .features-item .features-item-info a {
   font-weight: 600;
   line-height: 48px;
 }
-.powering .powering-info p {
+.powering .powering-info .powering-text {
   width: 446px;
   color: #18216D;
   font-family: "Inter";
