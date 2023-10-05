@@ -1,0 +1,112 @@
+@media(max-width: 600px) {
+    section {
+        width: 335px;
+        height: auto;
+        margin-top: 45px;
+
+
+        // HOME
+
+        .home {
+            width: 335px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+
+            .home-info {
+                width: 100%;
+                height: auto;
+                align-items: center;
+
+                h1 {
+                    width: 100%;
+                    font-size: 28px;
+                    line-height: 27px;
+                    text-align: center;
+                }
+
+                p {
+                    width: 280px;
+                    text-align: center;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                .home-btn {
+                    width: 120px;
+                    height: 40px;
+                    font-size: 14px;
+                    margin-top: 33px;
+                }
+            }
+
+            img {
+                width: 350.023px;
+                height: 300px;
+                position: absolute;
+                top: 320px;
+                left: -50px;
+            }
+        }
+
+        // HOME-FINISH
+         // RATING
+
+    .rating {
+        width: 335px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 400px;
+
+        h1 {
+            width: 330px;
+            height: 90px;
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        .rating-item {
+            display: flex;
+            gap: 76px;
+            margin-top: 22px;
+            
+
+            .rating-info1 {
+                width: 72.176px;
+                height: 60px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // border: 1px solid red;
+
+                h1 {
+                    font-size: 28px;
+                    line-height: 30px;
+                    }
+
+                .rating-rasm {
+                    display: flex;
+                    gap: 3px;
+                    img{
+                        width: 8px;
+                        height: 7px;
+                    }
+                }
+
+                p {
+                    width: 72px;
+                    font-size: 8px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    // RATING-FINISH
+
+    }
+}

@@ -118,7 +118,6 @@ body {
     justify-content: center;
     margin-bottom: 34px;
     position: relative;
-    border: 1px solid red;
   }
   .nav {
     width: 335px;
@@ -128,7 +127,6 @@ body {
     gap: 171px;
     position: absolute;
     top: 21px;
-    border: 1px solid red;
   }
   .nav-title img {
     width: 70.398px;
@@ -156,7 +154,7 @@ body {
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid #18216D;
   }
   .nav > .nav-links {
     position: absolute;
