@@ -53,60 +53,144 @@
         }
 
         // HOME-FINISH
-         // RATING
+        // RATING
 
-    .rating {
-        width: 335px;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        margin-top: 400px;
+        .rating {
+            width: 335px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            margin-top: 400px;
 
-        h1 {
-            width: 330px;
-            height: 90px;
-            font-size: 24px;
-            line-height: 30px;
+            h1 {
+                width: 330px;
+                height: 90px;
+                font-size: 24px;
+                line-height: 30px;
+            }
+
+            .rating-item {
+                display: flex;
+                gap: 76px;
+                margin-top: 22px;
+
+
+                .rating-info1 {
+                    width: 72.176px;
+                    height: 60px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    // border: 1px solid red;
+
+                    h1 {
+                        font-size: 28px;
+                        line-height: 30px;
+                    }
+
+                    .rating-rasm {
+                        display: flex;
+                        gap: 3px;
+
+                        img {
+                            width: 8px;
+                            height: 7px;
+                        }
+
+                        .rating-rasm-yulduz {
+                            width: 100%;
+                        }
+                    }
+
+                    p {
+                        width: 72px;
+                        font-size: 8px;
+                        line-height: 20px;
+                    }
+                }
+            }
         }
 
-        .rating-item {
-            display: flex;
-            gap: 76px;
-            margin-top: 22px;
-            
+        // RATING-FINISH
 
-            .rating-info1 {
-                width: 72.176px;
-                height: 60px;
+
+        // LOGOS
+
+        .logos {
+            width: 330px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 22px;
+        }
+
+
+        // LOGOS-FINISH
+
+
+
+         // FEATURES
+
+    .features {
+        width: 335px;
+        height: auto;
+        align-items: center;
+        margin-top: 52px;
+
+        .features-info {
+            width: 100%;
+            height: auto;
+
+            h1 {
+                font-size: 24px;
+                line-height: 24px;
+                width: 222px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 20px;
+                width: 335px;
+                opacity: 0.5;
+            }
+        }
+
+        .features-item {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+
+            .features-item-info {
+                width: 320px;
+                height: 212px;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
-                // border: 1px solid red;
+                align-items: flex-start;
+                gap: 20px;
+                margin-top: 40px;
 
                 h1 {
-                    font-size: 28px;
-                    line-height: 30px;
-                    }
-
-                .rating-rasm {
-                    display: flex;
-                    gap: 3px;
-                    img{
-                        width: 8px;
-                        height: 7px;
-                    }
+                    font-size: 20px;
                 }
 
                 p {
-                    width: 72px;
-                    font-size: 8px;
-                    line-height: 20px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    opacity: 0.5;
                 }
             }
         }
     }
 
-    // RATING-FINISH
+    // FEATURES-FINISH
 
     }
+
 }
