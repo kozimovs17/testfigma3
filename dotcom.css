@@ -863,7 +863,7 @@ section .features .features-item .features-item-info a {
   flex-direction: column;
   align-items: flex-start;
   gap: 31px;
-  margin-left: 55px;
+  margin-left: 85px;
 }
 .footer .resources h1 {
   color: #18216D;

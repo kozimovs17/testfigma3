@@ -539,33 +539,25 @@
     // FOOTER
 
     .footer {
-        width: 1155px;
+        width: 335px;
         height: auto;
         display: flex;
+        flex-direction: column;
         align-items: flex-start;
+        gap: 30px;
         margin-top: 120px;
 
         .footer-metting {
-            width: 248px;
-            height: 166px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 19px;
+            width: 148px;
+            height: auto;
 
             p {
-                width: 248px;
-                color: #18216D;
-                font-family: 'Inter';
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 26px;
-                opacity: 0.9;
+                width: 148px;
+                font-size: 12px;
             }
 
             .download {
-                width: 212px;
+                width: 148px;
                 display: flex;
                 gap: 12px;
             }
@@ -577,74 +569,28 @@
             flex-direction: column;
             align-items: flex-start;
             gap: 31px;
-            margin-left: 55px;
-
-            h1 {
-                color: #18216D;
-                font-family: 'Inter';
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 26px;
-            }
+            margin-left: 0px;
 
             ul {
                 width: 117px;
                 height: 200px;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: space-between;
-                list-style: none;
 
                 a {
-                    text-decoration: none;
-                    color: #18216D;
-                    font-family: 'Inter';
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 40px;
-                    opacity: 0.9;
+                    font-size: 14px;
                 }
             }
         }
 
         .contact {
             width: 300px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 31px;
-            margin-left: 128px;
+            margin-left: 0px;
 
-            h1 {
-                color: #18216D;
-                font-family: 'Inter';
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 26px;
-            }
 
             ul {
                 width: 300px;
-                height: 120px;
-                list-style: none;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: flex-start;
 
                 a {
-                    color: #18216D;
-                    font-family: 'Inter';
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 40px;
-                    text-decoration: none;
-                    opacity: 0.8;
+                    font-size: 14px;
                 }
             }
         }
@@ -652,5 +598,14 @@
 
 
     // FOOTER-FINISH
+
+    .line {
+        width: 335px;
+        height: 1px;
+    }
+    
+    .end {
+        font-size: 12px;
+    }
 
 }

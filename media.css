@@ -402,32 +402,24 @@
     margin-bottom: 20px;
   }
   .footer {
-    width: 1155px;
+    width: 335px;
     height: auto;
-    display: flex;
-    align-items: flex-start;
-    margin-top: 120px;
-  }
-  .footer .footer-metting {
-    width: 248px;
-    height: 166px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 19px;
+    gap: 30px;
+    margin-top: 120px;
+  }
+  .footer .footer-metting {
+    width: 148px;
+    height: auto;
   }
   .footer .footer-metting p {
-    width: 248px;
-    color: #18216D;
-    font-family: "Inter";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.9;
+    width: 148px;
+    font-size: 12px;
   }
   .footer .footer-metting .download {
-    width: 212px;
+    width: 148px;
     display: flex;
     gap: 12px;
   }
@@ -437,68 +429,30 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 31px;
-    margin-left: 55px;
-  }
-  .footer .resources h1 {
-    color: #18216D;
-    font-family: "Inter";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
+    margin-left: 0px;
   }
   .footer .resources ul {
     width: 117px;
     height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    list-style: none;
   }
   .footer .resources ul a {
-    text-decoration: none;
-    color: #18216D;
-    font-family: "Inter";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    opacity: 0.9;
+    font-size: 14px;
   }
   .footer .contact {
     width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 31px;
-    margin-left: 128px;
-  }
-  .footer .contact h1 {
-    color: #18216D;
-    font-family: "Inter";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
+    margin-left: 0px;
   }
   .footer .contact ul {
     width: 300px;
-    height: 120px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
   }
   .footer .contact ul a {
-    color: #18216D;
-    font-family: "Inter";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    text-decoration: none;
-    opacity: 0.8;
+    font-size: 14px;
+  }
+  .line {
+    width: 335px;
+    height: 1px;
+  }
+  .end {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=media.css.map */
