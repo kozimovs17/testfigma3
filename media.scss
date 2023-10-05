@@ -132,341 +132,525 @@
 
 
 
-         // FEATURES
+        // FEATURES
 
-    .features {
-        width: 335px;
-        height: auto;
-        align-items: center;
-        margin-top: 52px;
-
-        .features-info {
-            width: 100%;
+        .features {
+            width: 335px;
             height: auto;
-
-            h1 {
-                font-size: 24px;
-                line-height: 24px;
-                width: 222px;
-            }
-
-            p {
-                font-size: 14px;
-                line-height: 20px;
-                width: 335px;
-                opacity: 0.5;
-            }
-        }
-
-        .features-item {
-            width: 100%;
-            height: auto;
-            display: flex;
-            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            margin-top: 40px;
+            margin-top: 52px;
 
-            .features-item-info {
-                width: 320px;
-                height: 212px;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 20px;
-                margin-top: 40px;
+            .features-info {
+                width: 100%;
+                height: auto;
 
                 h1 {
-                    font-size: 20px;
+                    font-size: 24px;
+                    line-height: 24px;
+                    width: 222px;
                 }
 
                 p {
-                    font-size: 16px;
-                    line-height: 24px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    width: 335px;
                     opacity: 0.5;
                 }
             }
-        }
-    }
 
-    // FEATURES-FINISH
+            .features-item {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 40px;
+
+                .features-item-info {
+                    width: 320px;
+                    height: 212px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 20px;
+                    margin-top: 40px;
+
+                    h1 {
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 24px;
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+        // FEATURES-FINISH
 
     }
 
 
     // CALENDAR
 
-.calendar {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-top: 120px;
-
-    .back {
+    .calendar {
         width: 100%;
-        height: 100%;
-    }
-
-    .calendar-item {
-        width: 335px;
-        height: auto;
-        flex-direction: column-reverse;
-        gap: 90px;
-
-        img{
-            width: 335px;
-        }
-
-        .calendar-info {
-            width: 335px;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 30px;
-
-            h1 {
-                font-size: 24px;
-                line-height: 30px;
-            }
-
-            p {
-                width: 330px;
-                font-size: 14px;
-                line-height: 20px;
-                opacity: 0.8;
-            }
-
-            button {
-                width: 120px;
-                height: 40px;;
-                font-size: 14px;
-            }
-        }
-    }
-}
-
-// CALENDAR-FINISH
-
-
-// POWERING
-
-.powering {
-    width: 335px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 100px;
-    margin-top: 130px;
-
-    .powering-item {
-        width: 335px;
         height: auto;
         display: flex;
+        align-items: center;
         justify-content: center;
         position: relative;
+        margin-top: 120px;
 
-        .powering-img{
-            width: 300px;
+        .back {
+            width: 100%;
+            height: 100%;
         }
 
-        .powering-item-info {
-            width: 100px;
-            height: 70px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            position: absolute;
-            bottom: -30px;
-            right: -30px;
-
-            .powering-weekly {
-                width: 80px;
-                height: 40px;
-            }
-
-            button {
-                width: 75px;
-                height: 30px;
-                font-size: 8px;
-            }
-        }
-
-
-        .powering-tocka {
-            width: 80px;
-            position: absolute;
-            left: -20px;
-            bottom: -14px;
-        }
-    }
-
-    .powering-info {
-        width: 335px;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-
-        h1 {
+        .calendar-item {
             width: 335px;
-            font-size: 24px;
-            line-height: 30px;
-            text-align: center;
-        }
+            height: auto;
+            flex-direction: column-reverse;
+            gap: 90px;
 
-        .powering-text {
-            width: 330px;
-            font-size: 14px;
-            line-height: 20px;
-            text-align: center;
-            opacity: 0.5;
-        }
+            img {
+                width: 335px;
+            }
 
-        .powering-info-item {
+            .calendar-info {
+                width: 335px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 30px;
 
-            .powering-frame {
-                gap: 14px;
-
-                input {
-                    width: 15px;
-                    height: 15px;
+                h1 {
+                    font-size: 24px;
+                    line-height: 30px;
                 }
 
                 p {
+                    width: 330px;
                     font-size: 14px;
-                }
-            }
-        }
-
-        button {
-            width: 120px;
-            height: 40px;
-            font-size: 12px;
-            margin-top: 50px;
-        }
-    }
-}
-
-// POWERING-FINISH
-
-
-// PRICING
-
-.pricing {
-    width: 335px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 150px;
-
-    .pricing-title {
-        font-size: 24px;
-        line-height: 30px;
-    }
-
-    .pricing-text {
-        width: 335px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .pricing-item1 {
-        width: 272px;
-        height: 40px;
-        margin-top: 30px;
-
-        .pricing-back {
-            width: 272px;
-            height: 40px;
-        }
-
-        .pricing-btn1 {
-            width: 125px;
-            height: 28px;
-            font-size: 14px;
-        }
-
-        .pricing-btn2 {
-            width: 125px;
-            height: 28px;
-            font-size: 14px;
-        }
-    }
-
-    .pricing-item2 {
-        width: 335px;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-        margin-top: 80px;
-
-        .pricing-item2-info {
-            width: 335px;
-
-            .pricing-item2-line {
-                width: 335px;
-            }
-
-            .pricing-item2-back {
-                width: 335px;
-            }
-
-            .pricing-item2-frame1 {
-                width: 335px;
-                height: 160px;
-
-                h3 {
-                    font-size: 20px;
-                }
-
-                h1 {
-                    font-size: 30px;
-                }
-
-            }
-
-            .pricing-item2-frame2 {
-                width: 335px;
-                height: 456px;
-
-                .pricing-item2-frame2-info {
-
-
-                    .inp {
-
-                        p {
-                            font-size: 14px;
-                        }
-
-                        img {
-                            width: 18px;
-                            height: 18px;
-                        }
-                    }
+                    line-height: 20px;
+                    opacity: 0.8;
                 }
 
                 button {
                     width: 120px;
                     height: 40px;
-                    font-size: 12px;
+                    ;
+                    font-size: 14px;
                 }
             }
         }
     }
-}
 
-// PRICING-FINISH
+    // CALENDAR-FINISH
 
+
+    // POWERING
+
+    .powering {
+        width: 335px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        margin-top: 130px;
+
+        .powering-item {
+            width: 335px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            position: relative;
+
+            .powering-img {
+                width: 300px;
+            }
+
+            .powering-item-info {
+                width: 100px;
+                height: 70px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                position: absolute;
+                bottom: -30px;
+                right: -30px;
+
+                .powering-weekly {
+                    width: 80px;
+                    height: 40px;
+                }
+
+                button {
+                    width: 75px;
+                    height: 30px;
+                    font-size: 8px;
+                }
+            }
+
+
+            .powering-tocka {
+                width: 80px;
+                position: absolute;
+                left: -20px;
+                bottom: -14px;
+            }
+        }
+
+        .powering-info {
+            width: 335px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            h1 {
+                width: 335px;
+                font-size: 24px;
+                line-height: 30px;
+                text-align: center;
+            }
+
+            .powering-text {
+                width: 330px;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                opacity: 0.5;
+            }
+
+            .powering-info-item {
+
+                .powering-frame {
+                    gap: 14px;
+
+                    input {
+                        width: 15px;
+                        height: 15px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            button {
+                width: 120px;
+                height: 40px;
+                font-size: 12px;
+                margin-top: 50px;
+            }
+        }
+    }
+
+    // POWERING-FINISH
+
+
+    // PRICING
+
+    .pricing {
+        width: 335px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+
+        .pricing-title {
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        .pricing-text {
+            width: 335px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .pricing-item1 {
+            width: 272px;
+            height: 40px;
+            margin-top: 30px;
+
+            .pricing-back {
+                width: 272px;
+                height: 40px;
+            }
+
+            .pricing-btn1 {
+                width: 125px;
+                height: 28px;
+                font-size: 14px;
+            }
+
+            .pricing-btn2 {
+                width: 125px;
+                height: 28px;
+                font-size: 14px;
+            }
+        }
+
+        .pricing-item2 {
+            width: 335px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            margin-top: 80px;
+
+            .pricing-item2-info {
+                width: 335px;
+
+                .pricing-item2-line {
+                    width: 335px;
+                }
+
+                .pricing-item2-back {
+                    width: 335px;
+                }
+
+                .pricing-item2-frame1 {
+                    width: 333px;
+                    height: 160px;
+
+                    h3 {
+                        font-size: 20px;
+                    }
+
+                    h1 {
+                        font-size: 30px;
+                    }
+
+                }
+
+                .pricing-item2-frame2 {
+                    width: 333px;
+                    height: 456px;
+
+                    .pricing-item2-frame2-info {
+
+
+                        .inp {
+
+                            p {
+                                font-size: 14px;
+                            }
+
+                            img {
+                                width: 18px;
+                                height: 18px;
+                            }
+                        }
+                    }
+
+                    button {
+                        width: 120px;
+                        height: 40px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    // PRICING-FINISH
+
+
+    // TESTIMONIAL
+
+
+    .testimonial {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 130px;
+        position: relative;
+
+        .testimonial-back {
+            width: 100%;
+            height: 100%;
+        }
+
+        .testimonial-item {
+            width: 335px;
+            flex-direction: column-reverse;
+
+            img {
+                width: 335px;
+                margin-top: 50px;
+            }
+
+            .testimonial-info {
+                width: 335px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                h1 {
+                    font-size: 28px;
+                    line-height: 30px;
+                }
+
+                p {
+                    width: 330px;
+                    font-size: 14px;
+                    line-height: 24px;
+                    margin-top: 35px;
+                }
+
+                span {
+                    font-size: 16px;
+                    margin-top: 23px;
+                    text-align:
+                        left;
+                }
+
+                h6 {
+                    font-size: 12px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+
+    // TESTIMONIAL-FINISH
+
+
+
+    // FOOTER
+
+    .footer {
+        width: 1155px;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 120px;
+
+        .footer-metting {
+            width: 248px;
+            height: 166px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 19px;
+
+            p {
+                width: 248px;
+                color: #18216D;
+                font-family: 'Inter';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                opacity: 0.9;
+            }
+
+            .download {
+                width: 212px;
+                display: flex;
+                gap: 12px;
+            }
+        }
+
+        .resources {
+            width: 113px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 31px;
+            margin-left: 55px;
+
+            h1 {
+                color: #18216D;
+                font-family: 'Inter';
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 26px;
+            }
+
+            ul {
+                width: 117px;
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #18216D;
+                    font-family: 'Inter';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 40px;
+                    opacity: 0.9;
+                }
+            }
+        }
+
+        .contact {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 31px;
+            margin-left: 128px;
+
+            h1 {
+                color: #18216D;
+                font-family: 'Inter';
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 26px;
+            }
+
+            ul {
+                width: 300px;
+                height: 120px;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+
+                a {
+                    color: #18216D;
+                    font-family: 'Inter';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 40px;
+                    text-decoration: none;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+
+
+    // FOOTER-FINISH
 
 }
