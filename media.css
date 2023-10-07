@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 723px) {
   section {
     width: 335px;
     height: auto;
@@ -34,7 +34,7 @@
     width: 120px;
     height: 40px;
     font-size: 14px;
-    margin-top: 33px;
+    margin-top: 23px;
   }
   section .home img {
     width: 350.023px;
@@ -55,6 +55,7 @@
     height: 90px;
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 10px;
   }
   section .rating .rating-item {
     display: flex;
@@ -352,6 +353,7 @@
     width: 120px;
     height: 40px;
     font-size: 12px;
+    margin-top: 20px;
   }
   .testimonial {
     width: 100%;
